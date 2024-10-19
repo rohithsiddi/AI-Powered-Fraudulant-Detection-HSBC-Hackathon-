@@ -19,6 +19,7 @@ The dataset comprised historical transaction data. Extensive exploratory data an
 - **Machine Learning Techniques Used:**
   - **Bagging:** Utilized Random Forest to reduce variance and prevent overfitting, ensuring robust performance across diverse scenarios.
   - **Boosting:** Applied XGBoost to sequentially build models that correct the predecessors' errors, focusing on difficult cases to improve overall accuracy.
+  - **Hyperparameter Tuning:** Employed Optuna to systematically search for the optimal hyperparameters, significantly enhancing the models' performance.
 - **Model Evaluation:**
   - Achieved a precision of **97%**, indicating a high rate of accurately identified fraud cases.
   - Attained a recall of **85%**, ensuring that the majority of fraudulent transactions were detected.
